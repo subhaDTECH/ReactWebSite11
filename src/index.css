@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.activeclass:hover{
+  border-bottom: 2px solid cyan;
+  color: aqua  !important;
+}
+.Home{
+  width: 100vw;
+  height: 100vh;
+  background-position:center;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.4)),url(https://images.pexels.com/photos/1989304/pexels-photo-1989304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.Home .Text_box h1,h2{
+  font-weight: 700;
+ font-size: 60px;
+ letter-spacing: 2px;
+ word-spacing: 3px;
+ padding: 15px 0;
+ color: #fff;
+
+}
+.Home .Text_box h2{
+  text-align: center;
+}
+.Text_box .bt1{
+
+  text-align: center;
+  margin-left: 250px;
+  
+}
+.Text_box button{
+  margin-right: 20px;
+}
+
+
+.Service{
+  margin: 100px 0;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+.Service_box i{
+  font-size: 30px;
+  padding: 20px 0;
+}
+.Service_box  p{
+  padding: 20px 10px;
+}
+.Service_box:hover{
+  box-shadow: 0 0 20px 0 grey;
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.Service::before{
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+   background: linear-gradient(340deg,#555 60%,#fff  0%); 
+  /* background:linear-gradient(340deg,cyan 60%,#fff 0%); */
+  z-index: -1;
+
+}
+
+.About{
+  margin: 20px;
+  padding: 70px  0;
+  position: relative;
+}
+.About h1{
+  padding: 30px 0;
+}
+
+.About .col-md-6{
+  margin-right: 20px 0;
+}
+
+.About::before{
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+   /* background: linear-gradient(340deg,#555 60%,#fff  0%);  */
+   background:linear-gradient(30deg,cyan 58%,#fff 0%);
+   z-index: -1; 
+   
+
+}
+
+
+/* contact page csss */
+
+.Contact{
+  width: 100vw;
+  height: 100vh;
+ 
+  padding-top: 50px;
+  position: relative;
+  z-index: 2;
+  
+ 
+}
+
+.contact_page{
+  width: 50vh;
+  height: auto;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ z-index: 2;
+ 
+ 
+ 
+}
+.Contact::before{
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  
+  background:linear-gradient(330deg,cyan 60%,#fff 0%);
+   z-index: 1; 
+   
+
+}
+
+
+.Feature{
+  padding: 50px;
+}
+.card{
+  padding: 20px 0;
+}
+
+.Review{
+  padding: 50px  0;
+  margin: 40px 0;
+
+}
+.review_box img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.review_box{
+  box-shadow: 0 0 20px 0;
+  padding: 20px;
+  margin-top: 30px;
+
+}
+
+
+
+
+
